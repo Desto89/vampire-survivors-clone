@@ -24,8 +24,8 @@ h1 {
 }
 
 .gameInfo img {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
 }
 
 .endScreenDefeat {
@@ -43,4 +43,8 @@ h1 {
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-size: 25px;
 }

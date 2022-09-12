@@ -521,8 +521,8 @@ function gameLoop() {
             let skill = document.createElement("h1")
             skill.appendChild(document.createTextNode(skillName))
             skill.style.textAlign = 'center'
-            skill.style.padding = '20px'
-            skill.style.margin = '10px'
+            skill.style.padding = '5%'
+            skill.style.margin = "5px"
             skill.style.border = '5px solid white'
             skill.onclick = skillFunc
             document.getElementsByClassName("upgradeSelect")[0].appendChild(skill)
