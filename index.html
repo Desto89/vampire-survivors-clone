@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Survivors</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="App">
+        <div class="endScreenDefeat">
+          <h1>Defeat!</h1>
+        </div>
+        <div class="endScreenVictory">
+          <h1>Victory!</h1>
+        </div>
+        <div class="gameCanvas">
+          <canvas id="canvas"></canvas>
+        </div>
+        <div class="gameInfo">  
+          <div class="gameInfoMain">
+          <img src="images/player/walk_1_right.png" />
+          <div class="stats">
+            <h1 id="level">Level: 1</h1>
+            <h1 id="health">Health: 5</h1>
+            <h1 id="attack">Attack: 20</h1>
+            <h1 id="ms">Movement: 3</h1>
+            <h1 id="firerate">Fire Rate: 70</h1>
+          </div>
+          </div>
+          <div class="upgradesTab">
+            <h1 style="text-align: center;">Next level in:</h1>
+            <h1 id="killCount" style="text-align: center">0/2</h1>
+            <div class="upgradeSelect">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

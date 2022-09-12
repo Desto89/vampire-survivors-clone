@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+.App {
+  display: flex;
+}
+
+
+.gameInfo {
+  width: 100%;
+}
+
+.gameInfoMain {
+  display: flex;
+}
+
+.gameInfo img {
+  width: 30%;
+  height: 30%;
+}
+
+.endScreenDefeat {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.endScreenVictory {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
